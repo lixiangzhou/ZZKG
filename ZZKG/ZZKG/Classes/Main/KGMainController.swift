@@ -1,5 +1,5 @@
 //
-//  KGNavigationController.swift
+//  KGMainController.swift
 //  ZZKG
 //
 //  Created by lixiangzhou on 2017/6/5.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class KGNavigationController: UINavigationController {
+class KGMainController: KGViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
 
 }
