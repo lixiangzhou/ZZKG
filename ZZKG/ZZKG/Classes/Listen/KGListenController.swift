@@ -1,5 +1,5 @@
 //
-//  KGViewController.swift
+//  KGListenController.swift
 //  ZZKG
 //
 //  Created by lixiangzhou on 2017/6/5.
@@ -8,12 +8,14 @@
 
 import UIKit
 
-class KGViewController: UIViewController {
+class KGListenController: KGViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.zz_random
+        
+        
     }
 
 }

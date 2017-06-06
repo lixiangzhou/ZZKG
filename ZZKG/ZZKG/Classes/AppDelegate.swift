@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.backgroundColor = UIColor.white
         
-        window?.rootViewController = KGNavigationController(rootViewController: KGMainController())
+        window?.rootViewController = KGContainerController()//KGNavigationController(rootViewController: KGMainController())
         
         window?.makeKeyAndVisible()
         
