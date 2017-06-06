@@ -10,10 +10,6 @@
 		5009BADCBBAB0856D7B1708E /* Pods_ZZKG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D1926E2341E6BE373FC497 /* Pods_ZZKG.framework */; };
 		9767F6FB1EE5433D00BC0C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F6F21EE5433D00BC0C28 /* AppDelegate.swift */; };
 		9767F7011EE543A700BC0C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9767F6FD1EE543A700BC0C28 /* Assets.xcassets */; };
-		9767F7051EE5441C00BC0C28 /* KGNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7041EE5441C00BC0C28 /* KGNavigationController.swift */; };
-		9767F7071EE5445100BC0C28 /* KGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7061EE5445100BC0C28 /* KGViewController.swift */; };
-		9767F70B1EE54A1900BC0C28 /* KGMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F70A1EE54A1900BC0C28 /* KGMainController.swift */; };
-		9767F70D1EE5590000BC0C28 /* KGContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F70C1EE5590000BC0C28 /* KGContainerController.swift */; };
 		9767F70F1EE55A4500BC0C28 /* KGLikeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F70E1EE55A4500BC0C28 /* KGLikeController.swift */; };
 		9767F7111EE55A6100BC0C28 /* KGDownloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7101EE55A6100BC0C28 /* KGDownloadController.swift */; };
 		9767F7131EE55A7300BC0C28 /* KGRecentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7121EE55A7300BC0C28 /* KGRecentController.swift */; };
@@ -88,6 +84,11 @@
 		9767F7A81EE65F1C00BC0C28 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7871EE65F1C00BC0C28 /* LayoutConstraint.swift */; };
 		9767F7A91EE65F1C00BC0C28 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7881EE65F1C00BC0C28 /* LayoutConstraintItem.swift */; };
 		9767F7AA1EE65F1C00BC0C28 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7891EE65F1C00BC0C28 /* UILayoutSupport+Extensions.swift */; };
+		9767F7B11EE660D000BC0C28 /* KGContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7AC1EE660D000BC0C28 /* KGContainerController.swift */; };
+		9767F7B21EE660D000BC0C28 /* KGMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7AD1EE660D000BC0C28 /* KGMainController.swift */; };
+		9767F7B31EE660D000BC0C28 /* KGNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7AE1EE660D000BC0C28 /* KGNavigationController.swift */; };
+		9767F7B41EE660D000BC0C28 /* KGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7AF1EE660D000BC0C28 /* KGViewController.swift */; };
+		9767F7B61EE660FD00BC0C28 /* KGLightingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7B51EE660FD00BC0C28 /* KGLightingTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,10 +98,6 @@
 		9767F6F21EE5433D00BC0C28 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9767F6FD1EE543A700BC0C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9767F7001EE543A700BC0C28 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9767F7041EE5441C00BC0C28 /* KGNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGNavigationController.swift; sourceTree = "<group>"; };
-		9767F7061EE5445100BC0C28 /* KGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGViewController.swift; sourceTree = "<group>"; };
-		9767F70A1EE54A1900BC0C28 /* KGMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGMainController.swift; sourceTree = "<group>"; };
-		9767F70C1EE5590000BC0C28 /* KGContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGContainerController.swift; sourceTree = "<group>"; };
 		9767F70E1EE55A4500BC0C28 /* KGLikeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGLikeController.swift; sourceTree = "<group>"; };
 		9767F7101EE55A6100BC0C28 /* KGDownloadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGDownloadController.swift; sourceTree = "<group>"; };
 		9767F7121EE55A7300BC0C28 /* KGRecentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGRecentController.swift; sourceTree = "<group>"; };
@@ -175,6 +172,11 @@
 		9767F7871EE65F1C00BC0C28 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
 		9767F7881EE65F1C00BC0C28 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		9767F7891EE65F1C00BC0C28 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		9767F7AC1EE660D000BC0C28 /* KGContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGContainerController.swift; sourceTree = "<group>"; };
+		9767F7AD1EE660D000BC0C28 /* KGMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGMainController.swift; sourceTree = "<group>"; };
+		9767F7AE1EE660D000BC0C28 /* KGNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGNavigationController.swift; sourceTree = "<group>"; };
+		9767F7AF1EE660D000BC0C28 /* KGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGViewController.swift; sourceTree = "<group>"; };
+		9767F7B51EE660FD00BC0C28 /* KGLightingTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGLightingTabView.swift; sourceTree = "<group>"; };
 		9C8BB5705065A0D13E6A862F /* Pods-ZZKG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZKG.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZKG/Pods-ZZKG.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -273,10 +275,8 @@
 		9767F6F61EE5433D00BC0C28 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9767F7041EE5441C00BC0C28 /* KGNavigationController.swift */,
-				9767F7061EE5445100BC0C28 /* KGViewController.swift */,
-				9767F70A1EE54A1900BC0C28 /* KGMainController.swift */,
-				9767F70C1EE5590000BC0C28 /* KGContainerController.swift */,
+				9767F7AB1EE660D000BC0C28 /* Controller */,
+				9767F7B01EE660D000BC0C28 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -440,6 +440,25 @@
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
+		9767F7AB1EE660D000BC0C28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9767F7AC1EE660D000BC0C28 /* KGContainerController.swift */,
+				9767F7AD1EE660D000BC0C28 /* KGMainController.swift */,
+				9767F7AE1EE660D000BC0C28 /* KGNavigationController.swift */,
+				9767F7AF1EE660D000BC0C28 /* KGViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9767F7B01EE660D000BC0C28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9767F7B51EE660FD00BC0C28 /* KGLightingTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E3FB358ED8900D83BA4B0769 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,7 +591,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9767F7551EE5606E00BC0C28 /* UIAlertController+ZZExtension.swift in Sources */,
-				9767F70B1EE54A1900BC0C28 /* KGMainController.swift in Sources */,
 				9767F7111EE55A6100BC0C28 /* KGDownloadController.swift in Sources */,
 				9767F7941EE65F1C00BC0C28 /* ConstraintLayoutGuide.swift in Sources */,
 				9767F7651EE560C600BC0C28 /* KGListenController.swift in Sources */,
@@ -589,6 +607,7 @@
 				9767F7A71EE65F1C00BC0C28 /* Debugging.swift in Sources */,
 				9767F78C1EE65F1C00BC0C28 /* ConstraintConfig.swift in Sources */,
 				9767F7991EE65F1C00BC0C28 /* ConstraintMakerEditable.swift in Sources */,
+				9767F7B21EE660D000BC0C28 /* KGMainController.swift in Sources */,
 				9767F7AA1EE65F1C00BC0C28 /* UILayoutSupport+Extensions.swift in Sources */,
 				9767F7561EE5606E00BC0C28 /* UIApplication+ZZExtension.swift in Sources */,
 				9767F7A51EE65F1C00BC0C28 /* ConstraintView.swift in Sources */,
@@ -599,6 +618,7 @@
 				9767F7621EE5606E00BC0C28 /* UIView+ZZExtension.swift in Sources */,
 				9767F75B1EE5606E00BC0C28 /* UIImage+ZZExtension.swift in Sources */,
 				9767F79F1EE65F1C00BC0C28 /* ConstraintOffsetTarget.swift in Sources */,
+				9767F7B61EE660FD00BC0C28 /* KGLightingTabView.swift in Sources */,
 				9767F71B1EE55AEB00BC0C28 /* KGSingController.swift in Sources */,
 				9767F78D1EE65F1C00BC0C28 /* ConstraintConstantTarget.swift in Sources */,
 				9767F7431EE5606E00BC0C28 /* ZZCollection.swift in Sources */,
@@ -618,25 +638,25 @@
 				9767F7911EE65F1C00BC0C28 /* ConstraintInsetTarget.swift in Sources */,
 				9767F74F1EE5606E00BC0C28 /* Date+ZZExtension.swift in Sources */,
 				9767F7191EE55ADC00BC0C28 /* KGLookController.swift in Sources */,
+				9767F7B11EE660D000BC0C28 /* KGContainerController.swift in Sources */,
 				9767F7151EE55A9400BC0C28 /* KGSongListController.swift in Sources */,
 				9767F74D1EE5606E00BC0C28 /* CGRect+ZZExtension.swift in Sources */,
 				9767F7A21EE65F1C00BC0C28 /* ConstraintRelatableTarget.swift in Sources */,
 				9767F7A31EE65F1C00BC0C28 /* ConstraintRelation.swift in Sources */,
 				9767F74E1EE5606E00BC0C28 /* Data+ZZExtension.swift in Sources */,
 				9767F75E1EE5606E00BC0C28 /* UISceen+ZZExtension.swift in Sources */,
+				9767F7B31EE660D000BC0C28 /* KGNavigationController.swift in Sources */,
 				9767F78E1EE65F1C00BC0C28 /* ConstraintDescription.swift in Sources */,
 				9767F7A91EE65F1C00BC0C28 /* LayoutConstraintItem.swift in Sources */,
 				9767F78B1EE65F1C00BC0C28 /* ConstraintAttributes.swift in Sources */,
 				9767F7971EE65F1C00BC0C28 /* ConstraintLayoutSupportDSL.swift in Sources */,
 				9767F75F1EE5606E00BC0C28 /* UIScrollView+ZZExtension.swift in Sources */,
-				9767F70D1EE5590000BC0C28 /* KGContainerController.swift in Sources */,
+				9767F7B41EE660D000BC0C28 /* KGViewController.swift in Sources */,
 				9767F79D1EE65F1C00BC0C28 /* ConstraintMakerRelatable.swift in Sources */,
-				9767F7051EE5441C00BC0C28 /* KGNavigationController.swift in Sources */,
 				9767F74A1EE5606E00BC0C28 /* ZZRefreshHeader.swift in Sources */,
 				9767F74C1EE5606E00BC0C28 /* Calendar+ZZExtension.swift in Sources */,
 				9767F70F1EE55A4500BC0C28 /* KGLikeController.swift in Sources */,
 				9767F79C1EE65F1C00BC0C28 /* ConstraintMakerPriortizable.swift in Sources */,
-				9767F7071EE5445100BC0C28 /* KGViewController.swift in Sources */,
 				9767F7441EE5606E00BC0C28 /* ZZButton.swift in Sources */,
 				9767F7671EE6485700BC0C28 /* KGCommon.swift in Sources */,
 				9767F74B1EE5606E00BC0C28 /* ZZRefreshView.swift in Sources */,

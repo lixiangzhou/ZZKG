@@ -22,7 +22,12 @@ class KGListenController: KGViewController {
 
 extension KGListenController {
     fileprivate func setupUI() {
-//        let scrollView = UIScrollView()
+        let navigationViewBG = UIImageView(image: UIImage(named: "home_top_bg"))
+        navigationViewBG.frame = navigationView.bounds
+        navigationView.addSubview(navigationViewBG)
         
+        let contentViewBG = UIImageView(image: UIImage(named: "home_listen_bg_one"))
+        contentViewBG.frame = contentView.bounds
+        contentView.addSubview(contentViewBG)
     }
 }
