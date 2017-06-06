@@ -15,7 +15,14 @@ class KGListenController: KGViewController {
 
         view.backgroundColor = UIColor.zz_random
         
+        setupUI()
+    }
+    
+}
+
+extension KGListenController {
+    fileprivate func setupUI() {
+//        let scrollView = UIScrollView()
         
     }
-
 }

@@ -15,6 +15,8 @@ class KGMainController: KGViewController {
     fileprivate let listenVC = KGListenController()
     fileprivate let lookVC = KGLookController()
     fileprivate let singVC = KGSingController()
+    
+    fileprivate let userIcon = UIImageView(image: UIImage(named: "user_default_avator"))
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +30,20 @@ extension KGMainController {
     fileprivate func setupUI() {
         automaticallyAdjustsScrollViewInsets = false
         
+        setNav()
+        setContent()
+        
+        view.bringSubview(toFront: navgationView)
+        view.bringSubview(toFront: contentView)
+    }
+    
+    private func setNav() {
+        navgationView.backgroundColor = UIColor.yellow
+//        navgationView.addSubview(userIcon)
+        
+    }
+    
+    private func setContent() {
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = view.bounds.size
         layout.scrollDirection = .horizontal

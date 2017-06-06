@@ -54,6 +54,7 @@
 		9767F7621EE5606E00BC0C28 /* UIView+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7411EE5606E00BC0C28 /* UIView+ZZExtension.swift */; };
 		9767F7631EE5606E00BC0C28 /* ZZLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7421EE5606E00BC0C28 /* ZZLib.swift */; };
 		9767F7651EE560C600BC0C28 /* KGListenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7641EE560C600BC0C28 /* KGListenController.swift */; };
+		9767F7671EE6485700BC0C28 /* KGCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7661EE6485700BC0C28 /* KGCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +108,7 @@
 		9767F7411EE5606E00BC0C28 /* UIView+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ZZExtension.swift"; sourceTree = "<group>"; };
 		9767F7421EE5606E00BC0C28 /* ZZLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZLib.swift; sourceTree = "<group>"; };
 		9767F7641EE560C600BC0C28 /* KGListenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGListenController.swift; sourceTree = "<group>"; };
+		9767F7661EE6485700BC0C28 /* KGCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGCommon.swift; sourceTree = "<group>"; };
 		9C8BB5705065A0D13E6A862F /* Pods-ZZKG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZKG.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZKG/Pods-ZZKG.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -222,6 +224,7 @@
 		9767F6F81EE5433D00BC0C28 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				9767F7661EE6485700BC0C28 /* KGCommon.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				9767F70F1EE55A4500BC0C28 /* KGLikeController.swift in Sources */,
 				9767F7071EE5445100BC0C28 /* KGViewController.swift in Sources */,
 				9767F7441EE5606E00BC0C28 /* ZZButton.swift in Sources */,
+				9767F7671EE6485700BC0C28 /* KGCommon.swift in Sources */,
 				9767F74B1EE5606E00BC0C28 /* ZZRefreshView.swift in Sources */,
 				9767F7581EE5606E00BC0C28 /* UIColor+ZZExtension.swift in Sources */,
 				9767F7601EE5606E00BC0C28 /* UITableView+ZZExtension.swift in Sources */,
