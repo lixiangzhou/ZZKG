@@ -20,4 +20,8 @@ class KGContainerController: KGViewController {
         view.addSubview(nav.view)
     }
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
 }

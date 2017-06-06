@@ -28,10 +28,6 @@ class KGMainController: KGViewController {
         setupUI()
         
     }
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
 }
 
 extension KGMainController {
@@ -45,7 +41,6 @@ extension KGMainController {
     }
     
     private func setNav() {
-//        navigationView.backgroundColor = UIColor.blue
         navigationView.addSubview(userIcon)
         userIcon.snp.makeConstraints { (maker) in
             maker.bottom.equalTo(-3)
