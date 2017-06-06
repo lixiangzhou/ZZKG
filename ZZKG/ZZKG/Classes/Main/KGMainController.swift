@@ -34,12 +34,16 @@ extension KGMainController {
         setContent()
         
         view.bringSubview(toFront: navgationView)
-        view.bringSubview(toFront: contentView)
     }
     
     private func setNav() {
         navgationView.backgroundColor = UIColor.yellow
-//        navgationView.addSubview(userIcon)
+        navgationView.addSubview(userIcon)
+        userIcon.snp.makeConstraints { (maker) in
+            maker.bottom.equalTo(-3)
+            maker.left.equalTo(20)
+            maker.width.height.equalTo(32.5)
+        }
         
     }
     
