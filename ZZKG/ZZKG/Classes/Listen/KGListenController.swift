@@ -18,6 +18,7 @@ class KGListenController: KGViewController {
         setupUI()
     }
     
+    var scrollView: UIScrollView!
     var topView = UIView(frame: CGRect(x: 0, y: 0, width: KGScreenWidth, height: 175))
 }
 
@@ -25,20 +26,24 @@ extension KGListenController {
     fileprivate func setupUI() {
         setBG()
         
+        setScrollView()
+        
         setTop()
         
         setCenter()
     }
     
     private func setTop() {
-        contentView.addSubview(topView)
+        // 添加四个按钮
+        scrollView.addSubview(topView)
         addBtnToTop(image: "listen_like", title: "我喜欢", action: #selector(like))
         addBtnToTop(image: "listen_musiclist", title: "歌单", action: #selector(musiclist))
         addBtnToTop(image: "listen_download", title: "下载", action: #selector(download))
         addBtnToTop(image: "listen_recent_play", title: "最近", action: #selector(recent_play))
         
+        // 四个按钮的布局
         let width = 50
-        let padding = (Int(KGScreenWidth) - width * topView.subviews.count) / (topView.subviews.count * 2)
+        let padding = (Int(topView.zz_width) - width * topView.subviews.count) / (topView.subviews.count * 2)
         var x = CGFloat(padding)
         for i in 0..<topView.subviews.count {
             let btn = topView.subviews[i]
@@ -47,14 +52,60 @@ extension KGListenController {
             x += CGFloat(width + padding * 2)
         }
         
+        // 分割线
+        let sepMargin: CGFloat = 12.5
+        let sepLine = topView.zz_add(subview: UIView(frame: CGRect(x: sepMargin, y: topView.zz_height - 60, width: topView.zz_width - sepMargin * 2, height: 0.5)))
+        sepLine.backgroundColor = KGLightColor
         
+        // 本地音乐
+        let localView = topView.zz_add(subview: UIButton(frame: CGRect(x: 0, y: sepLine.zz_maxY, width: topView.zz_width, height: topView.zz_height - sepLine.zz_maxY))) as! UIButton
+        localView.addTarget(self, action: #selector(toLocalMusic), for: .touchUpInside)
+        let localMusicIcon = localView.zz_add(subview: UIImageView(image: UIImage(named: "listen_local_music"))) as! UIImageView
+        localMusicIcon.snp.makeConstraints { (maker) in
+            maker.left.equalTo(24)
+            maker.centerY.equalTo(localView)
+        }
         
+        let localLabel = localView.zz_add(subview: UILabel(text: "本地音乐", fontSize: 16, textColor: UIColor.white))
+        localLabel.snp.makeConstraints { (maker) in
+            maker.centerY.equalTo(localView)
+            maker.left.equalTo(localMusicIcon.snp.right).offset(15)
+        }
         
+        let localNumLabel = localView.zz_add(subview: UILabel(text: "0首", fontSize: 12, textColor: KGLightColor))
+        localNumLabel.snp.makeConstraints { (maker) in
+            maker.left.equalTo(localLabel.snp.right).offset(13)
+            maker.centerY.equalTo(localView)
+        }
         
+        let localNumArrow = localView.zz_add(subview: UIImageView(image: UIImage(named: "listen_local_arrow")))
+        localNumArrow.snp.makeConstraints { (maker) in
+            maker.left.equalTo(localNumLabel.snp.right).offset(5)
+            maker.centerY.equalTo(localView)
+        }
+        
+        let playLocalBtn = localView.zz_add(subview: UIButton(imageName: "local_play_all", hilightedImageName: "local_play_all", target: self, action: #selector(playLocal)))
+        playLocalBtn.snp.makeConstraints { (maker) in
+            maker.right.equalTo(-38)
+            maker.centerY.equalTo(localMusicIcon)
+        }
     }
     
     private func setCenter() {
         
+    }
+    
+    private func setScrollView() {
+        scrollView = contentView.zz_add(subview: UIScrollView(frame: CGRect(x: 0, y: 0, width: KGScreenWidth, height: contentView.zz_height))) as! UIScrollView
+        scrollView.backgroundColor = UIColor.clear
+        scrollView.bounces = true
+        scrollView.alwaysBounceVertical = true
+        
+        let scrollTopIcon = scrollView.zz_add(subview: UIImageView(image: UIImage(named: "watch_home_table_bg_icon_light")))
+        scrollTopIcon.snp.makeConstraints { (maker) in
+            maker.bottom.equalTo(scrollView.snp.top).offset(-25)
+            maker.centerX.equalTo(scrollView)
+        }
     }
     
     private func setBG() {
@@ -83,7 +134,7 @@ extension KGListenController {
     }
     
     @objc fileprivate func musiclist() {
-        navigationController?.pushViewController(KGSongListController(), animated: true)
+        navigationController?.pushViewController(KGMusicListController(), animated: true)
     }
     
     @objc fileprivate func download() {
@@ -92,6 +143,14 @@ extension KGListenController {
     
     @objc fileprivate func recent_play() {
         navigationController?.pushViewController(KGRecentController(), animated: true)
+    }
+    
+    @objc fileprivate func playLocal() {
+        
+    }
+    
+    @objc fileprivate func toLocalMusic() {
+        navigationController?.pushViewController(KGLocalMusicController(), animated: true)
     }
 }
 

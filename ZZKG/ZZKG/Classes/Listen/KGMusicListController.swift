@@ -1,14 +1,14 @@
 //
-//  KGSongListController.swift
+//  KGMusicListController.swift
 //  ZZKG
 //
-//  Created by lixiangzhou on 2017/6/5.
+//  Created by lixiangzhou on 2017/6/7.
 //  Copyright © 2017年 lixiangzhou. All rights reserved.
 //
 
 import UIKit
 
-class KGSongListController: KGViewController {
+class KGMusicListController: KGViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

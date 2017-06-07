@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5009BADCBBAB0856D7B1708E /* Pods_ZZKG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D1926E2341E6BE373FC497 /* Pods_ZZKG.framework */; };
+		9758D4031EE7A516006E5AE8 /* KGLocalMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9758D4021EE7A516006E5AE8 /* KGLocalMusicController.swift */; };
+		9758D4051EE7A53C006E5AE8 /* KGMusicListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9758D4041EE7A53C006E5AE8 /* KGMusicListController.swift */; };
 		9767F6FB1EE5433D00BC0C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F6F21EE5433D00BC0C28 /* AppDelegate.swift */; };
 		9767F7011EE543A700BC0C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9767F6FD1EE543A700BC0C28 /* Assets.xcassets */; };
 		9767F70F1EE55A4500BC0C28 /* KGLikeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F70E1EE55A4500BC0C28 /* KGLikeController.swift */; };
 		9767F7111EE55A6100BC0C28 /* KGDownloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7101EE55A6100BC0C28 /* KGDownloadController.swift */; };
 		9767F7131EE55A7300BC0C28 /* KGRecentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7121EE55A7300BC0C28 /* KGRecentController.swift */; };
-		9767F7151EE55A9400BC0C28 /* KGSongListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7141EE55A9400BC0C28 /* KGSongListController.swift */; };
 		9767F7191EE55ADC00BC0C28 /* KGLookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F7181EE55ADC00BC0C28 /* KGLookController.swift */; };
 		9767F71B1EE55AEB00BC0C28 /* KGSingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F71A1EE55AEB00BC0C28 /* KGSingController.swift */; };
 		9767F7431EE5606E00BC0C28 /* ZZCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F71D1EE5606E00BC0C28 /* ZZCollection.swift */; };
@@ -94,6 +95,8 @@
 /* Begin PBXFileReference section */
 		1301D3B9DE8BBEAE6C2F9549 /* Pods-ZZKG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZKG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZKG/Pods-ZZKG.debug.xcconfig"; sourceTree = "<group>"; };
 		32D1926E2341E6BE373FC497 /* Pods_ZZKG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZKG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9758D4021EE7A516006E5AE8 /* KGLocalMusicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGLocalMusicController.swift; sourceTree = "<group>"; };
+		9758D4041EE7A53C006E5AE8 /* KGMusicListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGMusicListController.swift; sourceTree = "<group>"; };
 		9767F6DC1EE5414A00BC0C28 /* ZZKG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZKG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9767F6F21EE5433D00BC0C28 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9767F6FD1EE543A700BC0C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,7 +104,6 @@
 		9767F70E1EE55A4500BC0C28 /* KGLikeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGLikeController.swift; sourceTree = "<group>"; };
 		9767F7101EE55A6100BC0C28 /* KGDownloadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGDownloadController.swift; sourceTree = "<group>"; };
 		9767F7121EE55A7300BC0C28 /* KGRecentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGRecentController.swift; sourceTree = "<group>"; };
-		9767F7141EE55A9400BC0C28 /* KGSongListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGSongListController.swift; sourceTree = "<group>"; };
 		9767F7181EE55ADC00BC0C28 /* KGLookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGLookController.swift; sourceTree = "<group>"; };
 		9767F71A1EE55AEB00BC0C28 /* KGSingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGSingController.swift; sourceTree = "<group>"; };
 		9767F71D1EE5606E00BC0C28 /* ZZCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZCollection.swift; sourceTree = "<group>"; };
@@ -258,7 +260,8 @@
 				9767F70E1EE55A4500BC0C28 /* KGLikeController.swift */,
 				9767F7101EE55A6100BC0C28 /* KGDownloadController.swift */,
 				9767F7121EE55A7300BC0C28 /* KGRecentController.swift */,
-				9767F7141EE55A9400BC0C28 /* KGSongListController.swift */,
+				9758D4021EE7A516006E5AE8 /* KGLocalMusicController.swift */,
+				9758D4041EE7A53C006E5AE8 /* KGMusicListController.swift */,
 				9767F7641EE560C600BC0C28 /* KGListenController.swift */,
 			);
 			path = Listen;
@@ -591,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9767F7551EE5606E00BC0C28 /* UIAlertController+ZZExtension.swift in Sources */,
+				9758D4051EE7A53C006E5AE8 /* KGMusicListController.swift in Sources */,
 				9767F7111EE55A6100BC0C28 /* KGDownloadController.swift in Sources */,
 				9767F7941EE65F1C00BC0C28 /* ConstraintLayoutGuide.swift in Sources */,
 				9767F7651EE560C600BC0C28 /* KGListenController.swift in Sources */,
@@ -628,6 +632,7 @@
 				9767F7631EE5606E00BC0C28 /* ZZLib.swift in Sources */,
 				9767F78F1EE65F1C00BC0C28 /* ConstraintDSL.swift in Sources */,
 				9767F7571EE5606E00BC0C28 /* UIButton+ZZExtension.swift in Sources */,
+				9758D4031EE7A516006E5AE8 /* KGLocalMusicController.swift in Sources */,
 				9767F75C1EE5606E00BC0C28 /* UIImageView+ZZExtension.swift in Sources */,
 				9767F7591EE5606E00BC0C28 /* UIDevice+ZZExtension.swift in Sources */,
 				9767F75A1EE5606E00BC0C28 /* UIFont+ZZExtension.swift in Sources */,
@@ -639,7 +644,6 @@
 				9767F74F1EE5606E00BC0C28 /* Date+ZZExtension.swift in Sources */,
 				9767F7191EE55ADC00BC0C28 /* KGLookController.swift in Sources */,
 				9767F7B11EE660D000BC0C28 /* KGContainerController.swift in Sources */,
-				9767F7151EE55A9400BC0C28 /* KGSongListController.swift in Sources */,
 				9767F74D1EE5606E00BC0C28 /* CGRect+ZZExtension.swift in Sources */,
 				9767F7A21EE65F1C00BC0C28 /* ConstraintRelatableTarget.swift in Sources */,
 				9767F7A31EE65F1C00BC0C28 /* ConstraintRelation.swift in Sources */,
